@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigationHome"
+            android:title="@string/home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/navigationInternal"
+            android:title="@string/internal_storage"
+            android:icon="@drawable/internal_storage_icon"/>
+
+        <item
+            android:id="@+id/navigationSdCard"
+            android:title="@string/sd_card"
+            android:icon="@drawable/sd_card"/>
+
+    </group>
+
+    <item
+        android:title="@string/more">
+
+        <menu>
+
+            <item
+                android:id="@+id/navigationAbout"
+                android:title="@string/about"
+                android:icon="@drawable/info"/>
+
+        </menu>
+
+    </item>
+</menu>
